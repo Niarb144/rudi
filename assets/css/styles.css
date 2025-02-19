@@ -159,6 +159,6 @@
 .menu-button.active div:nth-child(3) {
     transform: rotate(-45deg) translate(5px, -5px);
 }
-.gallery {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-}
+
+
+

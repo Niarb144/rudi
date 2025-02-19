@@ -1,9 +1,16 @@
 <style>
-    .gallery-container{
+.gallery-container{
+    display: block;
     padding: 0;
     justify-content: center;
     align-items: center;
     height: auto;
+    background: rgb(35, 170, 30);
+}
+
+.gridywrap{
+    display: block;
+    background: rgb(35, 170, 30);
 }
 
 .gridywrap div[class*=gridy] {
@@ -167,6 +174,7 @@
     font-weight: 300;
     padding: 15px 0;
   }
+ 
 
 </style>
 <section class="gallery-container">
@@ -176,10 +184,10 @@
     </div>
 
     <div class="gridywrap">
-  <div class="gridy-2 gridyhe-1">
-    <div class="gridimg" style="background-image: url(../assets/img/youth2.jpg)">&nbsp;</div>
+  <div class="gridy-2 gridyhe-1" data-aos="zoom-in-up" data-aos-duration="1000">
+    <div class="gridimg" style="background-image: url('./assets/img/youth5.png')">&nbsp;</div>
     
-    <div class="gridinfo">
+    <div class="gridinfo" >
       <h3>Youth and Gender</h3>
       <div class="gridmeta">
         <!-- <p class="gridwhen"><i class="fa fa-clock-o"></i> 17:22 17th Feb 2015</p> -->
@@ -189,10 +197,10 @@
       <a href="#" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></a>
     </div>
   </div>
-  <div class="gridy-1 gridyhe-1">
-    <div class="gridimg" style="background-image: url(../assets/img/health1.jpg)">&nbsp;</div>
+  <div class="gridy-1 gridyhe-1" data-aos="zoom-in-up" data-aos-duration="2000">
+    <div class="gridimg" style="background-image: url(./assets/img/health3.png)">&nbsp;</div>
     
-    <div class="gridinfo">
+    <div class="gridinfo" >
       <h3>Health</h3>
       <div class="gridmeta">
         <!-- <p class="gridwhen"><i class="fa fa-clock-o"></i> 17:22 17th Feb 2015</p> -->
@@ -202,10 +210,10 @@
       <a href="#" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></a>
     </div>
   </div>
-  <div class="gridy-1 gridyhe-2">
-    <div class="gridimg" style="background-image: url(../assets/img/agri1.jpg)">&nbsp;</div>
+  <div class="gridy-1 gridyhe-2" data-aos="zoom-in-up" data-aos-duration="2000">
+    <div class="gridimg" style="background-image: url(./assets/img/agri1.jpg)">&nbsp;</div>
     
-    <div class="gridinfo">
+    <div class="gridinfo" >
       <h3>Agribusiness</h3>
       <div class="gridmeta">
         <!-- <p class="gridwhen"><i class="fa fa-clock-o"></i> 17:22 17th Feb 2015</p> -->
@@ -215,10 +223,10 @@
       <a href="../src/agribusiness.php" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></a>
     </div>
   </div>
-  <div class="gridy-2 gridyhe-1">
-    <div class="gridimg" style="background-image: url(../assets/img/community1.jpg)">&nbsp;</div>
+  <div class="gridy-2 gridyhe-1" data-aos="zoom-in-up" data-aos-duration="3000">
+    <div class="gridimg" style="background-image: url(./assets/img/community1.jpg)">&nbsp;</div>
     
-    <div class="gridinfo">
+    <div class="gridinfo" >
       <h3>Community Development</h3>
       <div class="gridmeta">
         <!-- <p class="gridwhen"><i class="fa fa-clock-o"></i> 17:22 17th Feb 2015</p> -->
@@ -228,9 +236,9 @@
       <a href="#" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></a>
     </div>
   </div>
-  <div class="gridy-1 gridyhe-1">
-    <div class="gridimg" style="background-image: url(../assets/img/community4.jpg)">&nbsp;</div>
-    <div class="gridinfo">
+  <div class="gridy-1 gridyhe-1" data-aos="zoom-in-up" data-aos-duration="3000">
+    <div class="gridimg" style="background-image: url(./assets/img/disaster1.png)">&nbsp;</div>
+    <div class="gridinfo" >
       <h3>Disaster Management</h3>
       <div class="gridmeta">
         <!-- <p class="gridwhen"><i class="fa fa-clock-o"></i> 17:22 17th Feb 2015</p> -->
@@ -240,5 +248,19 @@
       <a href="#" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></a>
     </div>
   </div>
+
+  <div class="gridy-1 gridyhe-1" data-aos="zoom-in-up" data-aos-duration="3000">
+    <div class="gridimg" style="background-image: url(./assets/img/disaster1.png)">&nbsp;</div>
+    <div class="gridinfo" >
+      <h3>Disaster Management</h3>
+      <div class="gridmeta">
+        <!-- <p class="gridwhen"><i class="fa fa-clock-o"></i> 17:22 17th Feb 2015</p> -->
+        <p class="gridwho"><i class="fa fa-user"></i> Disaster Management</p>
+      </div>
+      <p class="gridexerpt">Lorem ipsum dolor set amet, some dummy content..</p>
+      <a href="#" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></a>
+    </div>
+  </div>
+  
 </div>
 </section>
