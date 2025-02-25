@@ -177,7 +177,7 @@
   }
 
    /* MEDIA QUERIES */
-   @media screen and (max-width: 1285px) {
+  @media screen and (max-width: 1285px) {
     .cards-wrapper {
       grid-template-columns: 1fr 1fr;
     }
