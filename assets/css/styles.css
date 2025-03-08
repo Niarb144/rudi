@@ -97,6 +97,27 @@
     /* -webkit-backdrop-filter: blur( 5px );   */
 }
 
+.hero .name-container {
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    width: fit-content;
+    position: relative;
+    z-index: 9;
+}
+.hero .full-text {
+    width: 0;
+    display: inline-block;
+    overflow: hidden;
+    transition: width 1s ease-in-out;
+    color: #333;
+}
+.hero .name-container:hover .full-text {
+    width: 15rem; /* Adjust width based on full text length */
+}
+
 .hero h1{
     position: absolute;
     margin-left: 2rem;

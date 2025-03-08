@@ -23,5 +23,6 @@
         document.getElementById('year').textContent = new Date().getFullYear()
     </script>
     <script src="../assets/js/navigation.js"></script>
+    <script src="../assets/js/letterreaveal.js"></script>
     </body>
 </html>
